@@ -1,0 +1,189 @@
+@media only screen and (max-width: map-get($grid-breakpoints, "md")) {
+  .header-wrap {
+    .el-menu-block {
+      display: none;
+    }
+
+    .mobile-menu-block {
+      display: block;
+    }
+  }
+
+}
+
+.brain {
+  @media only screen and (max-width: map-get($grid-breakpoints, "xl")) {
+    &-wrap {
+      width: 1000px !important;
+      transform: scale(0.58) !important;
+      margin-left: -10px !important;
+    }
+
+  }
+
+  @media only screen and (max-width: map-get($grid-breakpoints, "lg")) {
+    &-wrap {
+      width: 800px !important;
+      transform: scale(0.5) !important;
+
+      .brain-nav {
+        li {
+          &#nav_1 {
+            left: 506px !important;
+          }
+
+          &#nav_2 {
+            left: -70px !important;
+          }
+
+          &#nav_3 {
+            left: 746px !important;
+          }
+
+          &#nav_4 {
+            left: 218px !important;
+          }
+
+          &#nav_5 {
+            left: -30px !important;
+          }
+
+          &#nav_6 {
+            left: 380px !important;
+          }
+        }
+
+        &.cerebral-nav {
+          left: -100px !important;
+        }
+
+        &.frontal-nav {
+          left: -90px !important;
+        }
+
+        &.prefrontal-nav {
+          left: -90px !important;
+        }
+
+        &.brainstem-nav {
+          left: -102px !important;
+        }
+
+        &.deep-nav {
+          left: -100px !important;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: map-get($grid-breakpoints, "md")) {
+    &-wrap {
+      width: 600px !important;
+      transform: scale(0.4) !important;
+
+      .brain-nav {
+        li {
+          &#nav_1 {
+            left: 400px !important;
+          }
+
+          &#nav_2 {
+            left: -130px !important;
+          }
+
+          &#nav_3 {
+            left: 636px !important;
+          }
+
+          &#nav_4 {
+            left: 100px !important;
+          }
+
+          &#nav_5 {
+            left: -150px !important;
+          }
+
+          &#nav_6 {
+            left: 300px !important;
+          }
+        }
+
+        &.cerebral-nav {
+          left: -200px !important;
+        }
+
+        &.frontal-nav {
+          left: -190px !important;
+        }
+
+        &.prefrontal-nav {
+          left: -190px !important;
+        }
+
+        &.brainstem-nav {
+          left: -202px !important;
+        }
+
+        &.deep-nav {
+          left: -160px !important;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: map-get($grid-breakpoints, "sm")) {
+    &-wrap {
+      width: 400px !important;
+      transform: scale(0.3) !important;
+
+
+      .brain-nav {
+        li {
+          &#nav_1 {
+            left: 300px !important;
+          }
+
+          &#nav_2 {
+            left: -260px !important;
+          }
+
+          &#nav_3 {
+            left: 536px !important;
+          }
+
+          &#nav_4 {
+            left: 0px !important;
+          }
+
+          &#nav_5 {
+            left: -250px !important;
+          }
+
+          &#nav_6 {
+            left: 200px !important;
+          }
+        }
+
+        &.cerebral-nav {
+          left: -300px !important;
+        }
+
+        &.frontal-nav {
+          left: -290px !important;
+        }
+
+        &.prefrontal-nav {
+          left: -290px !important;
+        }
+
+        &.brainstem-nav {
+          left: -302px !important;
+        }
+
+        &.deep-nav {
+          left: -290px !important;
+        }
+      }
+    }
+  }
+}

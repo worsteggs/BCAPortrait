@@ -1,0 +1,54 @@
+stages:
+  - build
+  - deploy
+
+# 设置变量
+variables:
+  # 这个名和前端项目设置的根路径有关
+  WEB_NAME: "BrainWeb"
+
+# 默认每个job开始会重新清理工作目录，所以要把上次构建dist目录保存起来，给部署使用；把node_modules保存起来加快编译
+cache:
+  paths:
+    - node_modules
+    - dist
+
+# 定一个job名为build_dev
+build_dev:
+  # 该job属于哪个stage
+  stage: build
+  # 该job的依赖哪些job
+  needs: []
+  # 只针对dev分支
+  only:
+    - dev
+  #  when: manual
+  # 机器的tag，在那个机器上编译；规划dev机器用于数据共享部门开发环境机器,pro环境用于正式生产部署
+  tags:
+    - dev
+  # 命令
+  script:
+    - echo "=============== 开始编译  ==============="
+    - npm install --registry=https://registry.npm.taobao.org
+    - npm run build:prod
+
+# 定一个job名为deploy_dev
+deploy_dev:
+  # 该job属于哪个stage
+  stage: deploy
+  # 该job的依赖哪些job
+  needs: ["build_dev"]
+  # 只针对dev分支
+  only:
+    - dev
+  # 什么时候执行：默认自动执行，manual手动触发、on_success所有任务执行成功后、always总是执行...
+  #  when: manual
+  # 机器的tag，在那个机器上编译；规划dev机器用于数据共享部门开发环境机器,pro环境用于正式生产部署
+  tags:
+    - dev
+  # 命令
+  script:
+    - echo "=============== 开始部署  ==============="
+    - mkdir -p ${WEB_DIR}/${WEB_NAME}
+    - rm -fr ${WEB_DIR}/${WEB_NAME}/*
+    - cp -r dist/* ${WEB_DIR}/${WEB_NAME}

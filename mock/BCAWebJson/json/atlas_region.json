@@ -1,0 +1,292 @@
+{
+  "Adult": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Thalamus",
+      "value": "Thalamus"
+    },
+    {
+      "label": "Cingulate cortex",
+      "value": "Cingulate cortex"
+    },
+    {
+      "label": "Motor cortex",
+      "value": "Motor cortex"
+    },
+    {
+      "label": "Prefrontal cortex",
+      "value": "Prefrontal cortex"
+    },
+    {
+      "label": "Cerebral cortex ",
+      "value": "Cerebral cortex "
+    },
+    {
+      "label": "Limbic system",
+      "value": "Limbic system"
+    },
+    {
+      "label": "Hypothalamus",
+      "value": "Hypothalamus"
+    },
+    {
+      "label": "Basal ganglia",
+      "value": "Basal ganglia"
+    },
+    {
+      "label": "Occipital lobe",
+      "value": "Occipital lobe"
+    },
+    {
+      "label": "Hippocampus",
+      "value": "Hippocampus"
+    },
+    {
+      "label": "Midbrain",
+      "value": "Midbrain"
+    },
+    {
+      "label": "Frontal lobe",
+      "value": "Frontal lobe"
+    },
+    {
+      "label": "Temporal lobe",
+      "value": "Temporal lobe"
+    },
+    {
+      "label": "Pons",
+      "value": "Pons"
+    },
+    {
+      "label": "Cerebellum",
+      "value": "Cerebellum"
+    },
+    {
+      "label": "Medulla oblongata",
+      "value": "Medulla oblongata"
+    },
+    {
+      "label": "Corpus callosum",
+      "value": "Corpus callosum"
+    },
+    {
+      "label": "Somatosensory cortex",
+      "value": "Somatosensory cortex"
+    },
+    {
+      "label": "Amygdala",
+      "value": "Amygdala"
+    },
+    {
+      "label": "Olfactory bulb",
+      "value": "Olfactory bulb"
+    },
+    {
+      "label": "Parietal lobe",
+      "value": "Parietal lobe"
+    },
+    {
+      "label": "Putamen",
+      "value": "Putamen"
+    },
+    {
+      "label": "Spinal cord",
+      "value": "Spinal cord"
+    }
+  ],
+  "Tumour": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Cerebral cortex ",
+      "value": "Cerebral cortex "
+    },
+    {
+      "label": "Frontal lobe",
+      "value": "Frontal lobe"
+    },
+    {
+      "label": "Temporal lobe",
+      "value": "Temporal lobe"
+    },
+    {
+      "label": "Parietal lobe",
+      "value": "Parietal lobe"
+    },
+    {
+      "label": "Pons",
+      "value": "Pons"
+    },
+    {
+      "label": "Limbic system",
+      "value": "Limbic system"
+    },
+    {
+      "label": "Thalamus",
+      "value": "Thalamus"
+    }
+  ],
+  "Fetal": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Telencephalon",
+      "value": "Telencephalon"
+    },
+    {
+      "label": "Cerebellum",
+      "value": "Cerebellum"
+    },
+    {
+      "label": "Ganglionic eminences",
+      "value": "Ganglionic eminences"
+    },
+    {
+      "label": "Cerebral cortex",
+      "value": "Cerebral cortex"
+    },
+    {
+      "label": "Forebrain",
+      "value": "Forebrain"
+    },
+    {
+      "label": "Midbrain",
+      "value": "Midbrain"
+    },
+    {
+      "label": "Hippocampus",
+      "value": "Hippocampus"
+    },
+    {
+      "label": "Prefrontal cortex",
+      "value": "Prefrontal cortex"
+    },
+    {
+      "label": "Diencephalon",
+      "value": "Diencephalon"
+    },
+    {
+      "label": "Medulla",
+      "value": "Medulla"
+    },
+    {
+      "label": "Motor cortex",
+      "value": "Motor cortex"
+    },
+    {
+      "label": "Pons",
+      "value": "Pons"
+    },
+    {
+      "label": "Somatosensory cortex",
+      "value": "Somatosensory cortex"
+    },
+    {
+      "label": "Visual cortex",
+      "value": "Visual cortex"
+    },
+    {
+      "label": "Brain",
+      "value": "Brain"
+    },
+    {
+      "label": "Parietal lobe",
+      "value": "Parietal lobe"
+    },
+    {
+      "label": "Hindbrain",
+      "value": "Hindbrain"
+    },
+    {
+      "label": "Pituitary gland",
+      "value": "Pituitary gland"
+    },
+    {
+      "label": "Frontal lobe",
+      "value": "Frontal lobe"
+    },
+    {
+      "label": "Temporal lobe",
+      "value": "Temporal lobe"
+    },
+    {
+      "label": "Unclassified",
+      "value": "Unclassified"
+    },
+    {
+      "label": "Central",
+      "value": "Central"
+    },
+    {
+      "label": "Occipital lobe",
+      "value": "Occipital lobe"
+    },
+    {
+      "label": "Head",
+      "value": "Head"
+    },
+    {
+      "label": "Pallium",
+      "value": "Pallium"
+    },
+    {
+      "label": "Cortex",
+      "value": "Cortex"
+    },
+    {
+      "label": "Neocortex",
+      "value": "Neocortex"
+    },
+    {
+      "label": "Choroid",
+      "value": "Choroid"
+    }
+  ],
+  "Mouse": [
+    {
+      "label": "All",
+      "value": "all"
+    }
+  ],
+  "Organoid": [
+    {
+      "label": "All",
+      "value": "all"
+    },
+    {
+      "label": "Cerebral cortex ",
+      "value": "Cerebral cortex "
+    },
+    {
+      "label": "Midbrain",
+      "value": "Midbrain"
+    },
+    {
+      "label": "Frontal lobe",
+      "value": "Frontal lobe"
+    },
+    {
+      "label": "Temporal lobe",
+      "value": "Temporal lobe"
+    },
+    {
+      "label": "Occipital lobe",
+      "value": "Occipital lobe"
+    },
+    {
+      "label": "Parietal lobe",
+      "value": "Parietal lobe"
+    },
+    {
+      "label": "Pons",
+      "value": "Pons"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+build/*.js
+src/assets
+public
+dist
+src/api/*.js
+src/utils/violin.js
+src/utils/violin2ridge.js
+src/utils/boxPlot.js
+src/views/cell_selection/canvas2image.js
+src/utils/ridgePlot.js

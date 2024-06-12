@@ -1,0 +1,2 @@
+include:
+  - cicd/dev.gitlab-ci.yml
